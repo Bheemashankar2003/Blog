@@ -20,6 +20,10 @@ const About = () => {
             <p className="headtext">Hi, I'm Bheemashankar Diwakar</p>
             <p className="subtext">
             A motivated fresher with solid knowledge of Java, Spring Boot, SQL, and web technologies, eager to contribute to real-world backend development projects.
+            <br />
+            <br />
+          <div className="flex-col flex"><p>Govt Engineering College Gangavathi</p>
+          <p className="flex items-center justify-between">Electronics & Communication Engineering <span>CGPA:8.31</span></p></div>
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -90,8 +94,9 @@ const About = () => {
         {/* Grid 4 */}
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
-            <p className="text-center headtext">
+            <p className="text-center headtext font-bold">
               CaTcH Up HeRe😎
+              <p className="text-sm">bheemashankard17@gmail.com</p>
             </p>
             <CopyEmailButton />
           </div>

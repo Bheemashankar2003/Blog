@@ -31,6 +31,7 @@ const CopyEmailButton = () => {
           >
             <img src="assets/copy-done.svg" className="w-5" alt="copy Icon" />
             Email has Copied
+            {/* bheemashankard17@gmail.com */}
           </motion.p>
         ) : (
           <motion.p
